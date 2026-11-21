@@ -1,0 +1,25 @@
+========================================================================
+PANDUAN INSTALASI SISTEM OTOMASI PERPUSTAKAAN (OPAC PUBLIK + BACKOFFICE)
+========================================================================
+
+1. Ekstrak folder `perpustakaan_slims_v2` ke:
+   C:\xampp\htdocs\perpustakaan_slims_v2
+
+2. Jalankan Apache & MySQL di XAMPP Control Panel.
+
+3. Import database melalui http://localhost/phpmyadmin:
+   - Pilih tab "Import"
+   - Pilih file: C:\xampp\htdocs\perpustakaan_slims_v2\database\perpustakaan.sql
+   - Klik "Go"
+
+4. Akses Aplikasi di Browser:
+   - Halaman Awal (OPAC Katalog Publik & Rincian Isi Buku) :
+     http://localhost/perpustakaan_slims_v2/
+
+5. Akun Demo Login (Klik tombol di pojok kanan atas OPAC):
+   - Login Pustakawan / Admin :
+     Username : admin
+     Password : admin123
+   - Login Pengunjung / Anggota :
+     Username : tika (atau AG001)
+     Password : anggota123
